@@ -1,25 +1,13 @@
 {
-  "name": "rabbitmq",
+  "name": "hello-world-rabbitmq",
   "version": "1.0.0",
-  "description": "RabbitMQ Getting Started",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mvltsevinc/rabbitmq.git"
-  },
-  "keywords": [
-    "rabbitmq",
-    "javascript"
-  ],
-  "author": "Mevlüt Sevinç",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mvltsevinc/rabbitmq/issues"
-  },
-  "homepage": "https://github.com/mvltsevinc/rabbitmq#readme",
   "dependencies": {
     "amqplib": "^0.5.5"
   }
