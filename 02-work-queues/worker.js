@@ -12,7 +12,6 @@ amqp.connect('amqp://localhost', function(error0, connection) {
     }
 
     var queue = 'task_queue';
-
     // This makes sure the queue is declared before attempting to consume from it
     channel.assertQueue(queue, {
       durable: true
@@ -33,7 +32,7 @@ amqp.connect('amqp://localhost', function(error0, connection) {
       {
         // automatic acknowledgment mode,
         // see https://www.rabbitmq.com/confirms.html for details
-        noAck: true
+        noAck: false
       }
     );
   });
